@@ -1,0 +1,2 @@
+python3 train_qkeras_mcme.py --dataset cifar10 --num_epoch 5 --batch_size 128 --lr 0.01 --mc_samples 3 --gpus 2 --save_model cifar_resnet_tmp_1bayeslayer_mc_me --quant_tbit 8 --model_name resnet --save_dir ./exp_cifar_bayes_resnet --num_bayes_layer 1 --opt_mode temporal --dropout_type mc --is_me 1
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_1bayeslayer_mc_me --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_1bayeslayer_mc_me_hls --strategy resource  --model_name resnet

@@ -1,0 +1,2 @@
+bash cost_of_latency_vgg_mask_train.sh
+bash cost_of_latency_vgg_mask_hls.sh

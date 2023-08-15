@@ -1,0 +1,2 @@
+bash cost_of_resource_resnet_mask_train.sh
+bash cost_of_resource_resnet_mask_hls.sh

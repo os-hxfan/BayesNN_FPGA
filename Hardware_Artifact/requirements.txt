@@ -1,0 +1,9 @@
+git+https://github.com/hmarkc/hls4ml@8db496e63e03fd1c9f7c88ca262015257d739adf#egg=hls4ml
+numpy==1.23.1
+pydot==1.4.2
+scikit_learn==1.1.2
+tensorflow==2.9.1
+torch==1.12.1
+image-classifiers==1.0.0b1
+qkeras
+tensorflow_probability==0.16.0

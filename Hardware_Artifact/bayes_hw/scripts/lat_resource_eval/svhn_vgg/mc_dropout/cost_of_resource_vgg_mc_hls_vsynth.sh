@@ -1,0 +1,9 @@
+# Require to run the train script under the same directory to run this hls script.
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_0bayeslayer_mc --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_0bayeslayer_mc_hls_vsynth --strategy resource  --model_name vgg &
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_1bayeslayer_mc --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_1bayeslayer_mc_hls_vsynth --strategy resource  --model_name vgg &
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_2bayeslayer_mc --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_2bayeslayer_mc_hls_vsynth --strategy resource  --model_name vgg &
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_3bayeslayer_mc --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_3bayeslayer_mc_hls_vsynth --strategy resource  --model_name vgg &
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_4bayeslayer_mc --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_4bayeslayer_mc_hls_vsynth --strategy resource  --model_name vgg &
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_5bayeslayer_mc --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_5bayeslayer_mc_hls_vsynth --strategy resource  --model_name vgg &
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_6bayeslayer_mc --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_6bayeslayer_mc_hls_vsynth --strategy resource  --model_name vgg &
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_7bayeslayer_mc --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_7bayeslayer_mc_hls_vsynth --strategy resource  --model_name vgg &

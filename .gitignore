@@ -1,0 +1,12 @@
+__pycache__
+.vscode
+.env
+run_test.py
+test*
+*.h5
+*mat
+*.txt
+*.npy
+
+LeNet-*
+ResNet18-*

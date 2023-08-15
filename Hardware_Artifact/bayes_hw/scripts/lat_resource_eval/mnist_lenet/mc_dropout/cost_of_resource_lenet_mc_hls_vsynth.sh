@@ -1,0 +1,5 @@
+# Require to run the train script under the same directory to run this hls script.
+python3 hls4ml_build.py --load_model ./exp_mnist_bayes_lenet/mnist_lenet_tmp_0bayeslayer_mc --output_dir ./exp_mnist_bayes_lenet/mnist_lenet_tmp_0bayeslayer_mc_hls_vsynth --strategy resource  --model_name lenet &
+python3 hls4ml_build.py --load_model ./exp_mnist_bayes_lenet/mnist_lenet_tmp_1bayeslayer_mc --output_dir ./exp_mnist_bayes_lenet/mnist_lenet_tmp_1bayeslayer_mc_hls_vsynth --strategy resource  --model_name lenet &
+python3 hls4ml_build.py --load_model ./exp_mnist_bayes_lenet/mnist_lenet_tmp_2bayeslayer_mc --output_dir ./exp_mnist_bayes_lenet/mnist_lenet_tmp_2bayeslayer_mc_hls_vsynth --strategy resource  --model_name lenet &
+python3 hls4ml_build.py --load_model ./exp_mnist_bayes_lenet/mnist_lenet_tmp_3bayeslayer_mc --output_dir ./exp_mnist_bayes_lenet/mnist_lenet_tmp_3bayeslayer_mc_hls_vsynth --strategy resource  --model_name lenet &

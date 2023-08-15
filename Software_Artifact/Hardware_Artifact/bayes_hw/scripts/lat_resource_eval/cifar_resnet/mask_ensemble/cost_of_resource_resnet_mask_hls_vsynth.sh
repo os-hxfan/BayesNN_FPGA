@@ -1,0 +1,10 @@
+# Require to run the train script under the same directory to run this hls script.
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_0bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_0bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_1bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_1bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_2bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_2bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_3bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_3bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_4bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_4bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_5bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_5bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_6bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_6bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_7bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_7bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &
+python3 hls4ml_build.py --load_model ./exp_cifar_bayes_resnet/cifar_resnet_tmp_8bayeslayer_mask --output_dir ./exp_cifar_bayes_resnet/cifar_resnet_tmp_8bayeslayer_mask_hls_vsynth --strategy resource  --model_name resnet &

@@ -1,0 +1,2 @@
+bash cost_of_latency_resnet_mask_train.sh
+bash cost_of_latency_resnet_mask_hls.sh

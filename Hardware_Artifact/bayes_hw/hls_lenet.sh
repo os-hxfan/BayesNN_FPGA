@@ -1,0 +1,1 @@
+python3 hls4ml_pred.py --load_model mnist_lenet --num_bayes_layer 0 --num_mc_samples 1 --gpus 0,1 --dataset mnist

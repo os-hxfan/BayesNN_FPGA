@@ -1,0 +1,2 @@
+python3 train_qkeras_mcme.py --dataset svhn --num_epoch 5 --batch_size 128 --lr 0.001 --mc_samples 3 --gpus 2 --save_model svhn_vgg_tmp_1bayeslayer_mask_me --quant_tbit 8 --model_name vgg --save_dir ./exp_svhn_bayes_vgg --num_bayes_layer 1 --opt_mode temporal --dropout_type mask --is_me 1
+python3 hls4ml_build.py --load_model ./exp_svhn_bayes_vgg/svhn_vgg_tmp_1bayeslayer_mask_me --output_dir ./exp_svhn_bayes_vgg/svhn_vgg_tmp_1bayeslayer_mask_me_hls --strategy resource  --model_name vgg
